@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	margin: 0;
+}
+
+.nav-logo {
+	color: white;
+	margin: 0;
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	margin: 0;
+}
+
+.nav-links-link:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.nav-links-link a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav-links-link {
+	font-weight: 900;
+	padding: 8px 10px;
+}
+
+.nav-red-box {
+	background: red;
+}
+
+.landing {
+	height: 600px;
+	position: relative;
+	background-image: url("/imgs/alec-jones-WDsmqzxy8Ig-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.landing-container {
+	z-index: 1;
+	position: absolute;
+	height: 600px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	clip-path: polygon(0 0, 40% 0, 30% 100%, 0 100%);
+}
+
+.landing-text-container {
+	width: 100%;
+	height: 600px;
+}
+
+.landing-text {
+	color: #ffffff;
+	z-index: 2;
+	max-width: 250px;
+}
+
+.hero-button {
+	z-index: 2;
+}
+
+.landing-community {
+	height: 600px;
+}
+
+.landing-community-left {
+	height: 350px;
+	width: 300px;
+	background-image: url("/imgs/adrian-n-jWM41o-TMAw-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.landing-quote-block {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 6rem 0;
+}
+
+.landing-become-member {
+	height: 600px;
+}
+
+.landing-become-member-left {
+	
+}
+
+.landing-become-member-right {
+	height: 350px;
+	width: 400px;
+	background-image: url("/imgs/yannis-zaugg-EXiVB3I2sWs-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.userdash-landing {
+	height: 600px;
+	background-image: url("/imgs/andreas-brun-fjDDh6iOBQA-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.userdash-landing-text {
+	color: white;
+}
+
+.userdash-event-count {
+	padding: 6rem 0;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.userdash-chat-board {
+	border-left: 2px solid #000000;
+	padding-left: 2rem;
+}
+
+.news-landing-top-left-img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.club-news {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 2rem;
+	height: fit-content;
+}
+
+.club-news.latest-news {
+	background-color: #008c45;
+	color: #000000;
+}
+
+.club-news-subtitle {
+	font-size: 16px;
+}
+
+.club-news-summary {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.club-news-right-img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.create-account-block {
+	padding: 5rem 0;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.news-article-left {
+	height: 600px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.news-article-story {
+	margin-top: 2rem;
+}
+
+.events-landing {
+	background-image: url("/imgs/yannis-zaugg-EXiVB3I2sWs-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 600px;
+	position: relative;
+}
+
+.events-landing-shadow {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	clip-path: polygon(100% 60%, 30% 100%, 100% 100%);
+}
+
+.events-container {
+	position: absolute;
+	width: 100%;
+	z-index: 3;
+	min-height: 600px;
+}
+
+.events-landing-text {
+	z-index: 10;
+	color: #ffffff;
+}
+
+.event-list {
+	
+}
+
+.event-list-item-title {
+	font-weight: bold;
+}
+
+.event-list-item-date {
+	color: green;
+	font-weight: bold;
+}
+
+.event-list-item-description {
+	font-size: 1rem;
+}
+
+.event-list-container {
+	position: relative;
+}
+
+.event-list-item:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+.event-list-line {
+	position: absolute;
+	width: 2px;
+	height: 130%;
+	background-color: #000000;
+}
+
+.event-list-line-bottom {
+	position: absolute;
+	width: 2px;
+	height: 100px;
+	background-color: #000000;
+	transform: translateY(-60px);
+}
+
+.event-list-item-marker {
+	height: 10px;
+	width: 10px;
+	background-color: #000000;
+}
+
+.event-meet-preview {
+	background-color: #000000;
+	color: #ffffff;
+	z-index: 10;
+}
+
+.event-meet-preview-right {
+	background-image: url("/imgs/paul-kansonkho-ivRiPM_kHw0-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 250px;
+	width: 100%;
+}
+
+.SingleEventTable {
+	background: blue;
+	border-spacing: 50px 0;
+}
+
+.titleSquare {
+	height: 26px;
+	width: 26px;
+	background-color: #000000;
+	transform: translateY(7px);
+}
+
+.titleSquareSm {
+	height: 20px;
+	width: 20px;
+	background-color: #000000;
+	transform: translateY(5px);
+}
+
+.singleEventIcon {
+	display: flex;
+	align-items: start;
+}
+
+.singleEventDesc {
+	padding-left: 1rem;
+}
+
+.singleEventBg {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
