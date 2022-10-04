@@ -12,8 +12,10 @@
     <li>Bootstrap 5</li>
     <li>Balsamiq</li>
     <li>Trello</li>
+    <li>Adobe Photoshop</li>
+    <li>Adoble Illustrator</li>
 </ul>
-<p>Used 1 image from <a href="https://unsplash.com/">unsplash</a></p>
+<p>Used images from <a href="https://unsplash.com/">unsplash</a></p>
 <h2 align:"center">Landing Page</h2>
 <img src="/screenshots/xclsvHome.png" width="100%" />
 <h2 align:"center">Dashboard</h2>
